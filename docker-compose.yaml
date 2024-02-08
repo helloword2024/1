@@ -1,0 +1,6 @@
+services:
+  okproxy2v:
+    build: .
+    shm_size: 2.6gb
+    ports:
+      - "80:8080"
